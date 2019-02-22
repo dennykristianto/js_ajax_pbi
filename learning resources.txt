@@ -1,0 +1,29 @@
+
+http://javascriptissexy.com/16-javascript-concepts-you-must-know-well/
+https://medium.freecodecamp.org/write-less-do-more-with-javascript-es6-5fd4a8e50ee2
+http://ccoenraets.github.io/es6-tutorial/setup-babel/
+https://www.educba.com/es6-vs-es5/
+https://www.wintellect.com/5-great-features-in-es6-harmony/
+https://itnext.io/why-you-should-use-es6-56bd12f7ae09
+https://medium.com/front-end-weekly/es6-vs-es5-9254f8390332
+https://medium.com/dev-bits/a-perfect-guide-for-cracking-a-javascript-interview-a-developers-perspective-23a5c0fa4d0d
+https://medium.com/nodesimplified/javascript-pass-by-value-and-pass-by-reference-in-javascript-fcf10305aa9c
+https://www.dofactory.com/tutorial/javascript-function-objects
+https://scotch.io/tutorials/javascript-promises-for-dummies
+https://scotch.io/tutorials/understanding-javascript-promises-pt-i-background-basics
+
+Javascript docs
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+https://www.w3schools.com/Js/
+https://www.tutorialspoint.com/javascript/index.htm
+
+To be able to understand current JS framework
+https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+https://en.wikipedia.org/wiki/Document_Object_Model
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+https://developer.mozilla.org/en-US/docs/Web/API/Event
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+
+Learn Javascript OOP
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+http://javascript.info/function-prototype

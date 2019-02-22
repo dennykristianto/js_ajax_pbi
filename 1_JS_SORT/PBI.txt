@@ -1,0 +1,5 @@
+PBI
+1 on 'Logical' tab: when you input the number to textfield it will be automatically sorted in 'Sorted' area.
+2 on 'Logical' tab: it will give error notification if you input non-number value.
+3 on 'Application' tab: just put some article in it.
+4 if you click 'Logical', the 'Application' tab will be hidden. and if you click 'Application', the 'Logical' tab will be hidden.

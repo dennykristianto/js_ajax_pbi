@@ -1,0 +1,7 @@
+﻿
+p { padding: 0px; margin: 0px; }
+a { display:inline-block; padding: 5px; width: 100px; text-decoration:none; text-align:center; border: 1px solid black; }
+label { width: 150px; float:left; }
+
+#sub_nav { margin-top: 10px; margin-bottom: 10px; }
+#content2 {display: none;}

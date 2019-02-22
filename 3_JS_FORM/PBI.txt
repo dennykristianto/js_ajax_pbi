@@ -1,0 +1,11 @@
+Please create a form using html & javascript
+1. All fields are mandatory field
+2. All columns will be validated when Add button pressed
+3. Notification message will be displayed on top of the form
+4. If all validation passed, data will be listed on right column
+5. Birth Date should be validated as correct date format
+6. Age should be number format
+7. Zipcode should be 5 digit number
+8. Phone number can be muliple input values
+9. Add number button will add a new phone humber column
+10. Remove number button will remove the latest phone number column

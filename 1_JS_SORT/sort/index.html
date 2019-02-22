@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Filter Number</title>
+    </head>
+    <body>
+        <div id="nav">
+            <a id="menu1" href="#" onclick="changeto(0)" style="background-color:yellow">Logical</a>
+            <a id="menu2" href="#" onclick="changeto(1)">Application</a>
+        </div>
+        <div id="content1">
+            <form action="">
+                <fieldset>
+                    <legend>Unsorted</legend>
+                    <p><label>Number 1</label> <input type="text" id="input1"></p>
+                    <p><label>Number 2</label> <input type="text" id="input2"></p>
+                    <p><label>Number 3</label> <input type="text" id="input3"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Sorted</legend>
+                    <p><label>Biggest Number</label>   <input type="text" id="big1"></p>
+                    <p><label>Medium Number</label>    <input type="text" id="big2"></p>
+                    <p><label>Lowest Number</label>    <input type="text" id="big3"></p>
+                </fieldset>
+            </form>
+        </div>
+		<div id="content2">
+			<h1>JavaScript</h1>
+            <p>JavaScript (JS) is an interpreted computer programming language.[5] It was originally implemented as part of web browsers so that client-side scripts could interact with the user, control the browser, communicate asynchronously, and alter the document content that was displayed.[5] More recently, however, it has become common in both game development and the creation of desktop applications.</p>
+            <p>JavaScript is a prototype-based scripting language that is dynamic, is type safe, and has first-class functions. Its syntax was influenced by the language C. JavaScript copies many names and naming conventions from Java, but the two languages are otherwise unrelated and have very different semantics. The key design principles within JavaScript are taken from the Self and Scheme programming languages.[6] It is a multi-paradigm language, supporting object-oriented,[7] imperative, and functional[1][8] programming styles.</p>
+            <p>JavaScript's use in applications outside of web pages—for example, in PDF documents, site-specific browsers, and desktop widgets—is also significant. Newer and faster JavaScript VMs and frameworks built upon them (notably Node.js) have also increased the popularity of JavaScript for server-side web applications.</p>
+            <p>JavaScript was formalized in the ECMAScript language standard and is primarily used as part of a web browser (client-side JavaScript). This enables programmatic access to computational objects within a host environment.</p>
+            <p>source : Wikipedia-JavaScript</p>
+        </div>
+        <script src="jquery.js" ></script>
+        <script>
+            $(document).ready(function(){
+                $("#input1, #input2, #input3").on('keyup',function(){
+                    if(!$.isNumeric($(this).val())&&$(this).val()!=''){
+                        alert("Please input numeric value only!")
+                        return;
+                    }
+                    order()
+                })
+            })
+
+            function order(){
+                data=[];
+                data.push($("#input1").val(),$("#input2").val(),$("#input3").val());
+                data.sort(function(a,b){return a-b});
+                $("#big1").val(data[2])
+                $("#big2").val(data[1])
+                $("#big3").val(data[0])
+            }
+            function changeto(id){
+                if(id==0){
+                    $("#content2").hide();
+                    $("#menu1").css("background-color","yellow")
+                    $("#content1").show();
+                    $("#menu2").css("background-color","white")
+                }else{
+                    $("#content2").show();
+                    $("#menu1").css("background-color","white")
+                    $("#content1").hide();
+                    $("#menu2").css("background-color","yellow")
+                }
+            }
+        </script>
+    </body>
+</html>
+

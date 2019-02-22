@@ -1,0 +1,35 @@
+.resultList {
+	margin: 10px 3px;
+	background-color: #dad7c7;
+}
+
+.resultItem {
+	margin-left: 5px;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+
+.containerRow {
+	height:auto;
+	min-height:100vh;
+	display:flex;
+	flex-direction:row;
+}
+
+#leftColumn {
+	background-color:#dad7c7;
+}
+
+#rightColumn {
+	background-color:#f7b5b6;
+}
+
+#messages {
+	height:20px;
+	color:red;
+	font-weight:bold;
+}
+
+.phoneButton {
+	margin-top:5px;
+}

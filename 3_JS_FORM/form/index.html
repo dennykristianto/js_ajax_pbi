@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/jquery-ui.min.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<style>
+			.error{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row containerRow">
+				<div class="col-md-6" id="leftColumn">
+					<div id="messages"></div>
+					<div id="forms" style="margin-bottom:10px;">
+						<form name="myForm" id="myForm">
+							<div class="form-group">
+								<div id="errorbox" style="color:red;font-weight: bold"></div>
+								<label for="fname">Name: </label>
+								<input type="text" class="form-control" name="fname" id="fname"/>
+							</div>
+							<div class="form-group">
+								<label for="fdate">Birth Date: </label>
+								<div class="input-group date">
+									<input type="date" class="form-control" name="fdate" id="fdate"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="fages">Age: </label>
+								<input type="text" class="form-control" name="fage" id="fage"/>
+							</div>
+							<div class="form-group">
+								<label for="fages">ZIP: </label>
+								<input type="text" class="form-control" name="fzip" id="fzip"/>
+							</div>
+							<div class="form-group" id="phoneNumber">
+								<label for="fphone">Phones: </label>
+								<div id="phoneholder">
+									<input type="text" class="form-control " id="fphone" name="fphone[]"/>
+								</div>
+								<input class="btn btn-default phoneButton" type="button" value="Add number" id="addNumber"/>
+								<button  class="btn btn-default phoneButton" type="button" id="removeNumber">Remove number</button>
+							</div>
+							<button  class="btn btn-default" type="submit">Add</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-6" id="rightColumn">
+					<div id="result"></div>
+				</div>
+			</div>
+		</div>
+		<script src="jquery.js" ></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.min.js" ></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="script.js" ></script>
+	</body>
+</html>

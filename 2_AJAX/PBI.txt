@@ -1,0 +1,8 @@
+You can use jquery and/or Javascript to complete this additional task.
+
+1. Display all data when the search criteria is empty.
+1. Update load data (ajax) behavior, change it from onKeyup to only one times when the page loaded.
+2. Add a button to trigger edit behavior.
+3. Add a delete button and a behavior to delete record from the list.
+4. Add an edit button and a behavior to display editor input to modify the speaker info. this is also followed by save and cancel button.
+5. Highlight the matched string with another color. 
